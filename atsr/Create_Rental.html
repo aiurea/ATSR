@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<head>
+<meta charset="UTF-8">
+<title>Create Rental</title>
+</head>
+
+<body>
+	<nav>
+    <div class="logo">
+        <h4> ATSR </h4>
+    </div>
+    <ul class="nav-links">
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="About.html">About</a></li>
+        <li> <a href="Create_Rental.html">Create Rental</a></li>
+        <li> <a href="View_Rental.html">View Rentals</a></li>
+    </ul>
+
+    </nav>
+	
+	<div class="footer"> <!--code taken from AnAirCode.ca. Website does not indicate an author-->
+  <div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+       <h3>Have any Questions? Email us at:
+    <br>helpdesk@ATSR.ca</h3>
+</div>
+</div>
+</div>
+</div>
+	<div class="header"> 
+	<header> <h1>Create Rental</h1></header>
+	</div>
+	
+	<br>
+	<div class="personal">
+	<h2>Contact Information</h2>
+	</div>
+	<br>
+	
+		<form>
+			
+			<div class = "formheader">Name</div>
+			<input type="text" name="Person_Name" placeholder="Full Name">
+			<div class = "formheader">Phone Number</div>
+			<input type="text" name= "Person_Phone_Number" placeholder = "(000)-000-0000">
+			<div class = "formheader">Email</div>
+			<input type="text" name ="Person_Email" placeholder = "Email">
+			<div class = "formheader">Address</div>
+			<input type="text" name ="Person_Address" placeholder = "Street, City, Province, Country, Postal Code">
+			<div class = "formheader">Professional Role</div>
+			<input type="text" name = "Person_Role" placeholder = "Professional Role">
+			<br>
+			<br>
+	
+			<div class= "Tools">Select Tools and Dates</div>
+			<br>
+			<input type="checkbox" id="Tool_Category1" name="Tool_Category1" value="Hammer">
+  				<label for="Tool_Category1"> Hammer </label><br>
+  			<input type="checkbox" id="Tool_Category2" name="Tool_Category2" value="Wrenches">
+ 				 <label for="Tool_Category2"> Wrenches</label><br>
+  			<input type="checkbox" id="Tool_Category3" name="Tool_Category3" value="Screwdrivers">
+				<label for="Tool_Category3"> Screwdriver</label> <br>
+			<input type="checkbox" id="Tool_Category4" name="Tool_Category4" value="Saws">
+  				<label for="Tool_Category4"> Saw </label><br>
+ 			<input type="checkbox" id="Tool_Category5" name="Tool_Category5" value="Pliers">
+  				<label for="Tool_Category5"> Pliers</label><br>
+  			<input type="checkbox" id="Tool_Category6" name="Tool_Category6" value="Clamps">
+  				<label for="Tool_Category6"> Clamps</label> <br>
+			<input type="checkbox" id="Tool_Category7" name="Tool_Category7" value="Screws">
+  				<label for="Tool_Category7"> Screws</label>
+	
+			<br>
+			 <div class="item">
+	  <p>Delivery Date</p>
+          <input type="date" name="bdate" />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <p>Delivery Time</p>
+          <input type="time" name="name" />
+          <i class="fas fa-clock"></i>
+        </div>
+	<br>
+		 <div class="item">
+	  <p>Return Date</p>
+          <input type="date" name="bdate" />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <p>Return Time</p>
+          <input type="time" name="name" />
+          <i class="fas fa-clock"></i>
+        </div>
+		<br>
+			
+			<div class="input-group">
+                <div class="input-box">
+                    <div class= "Tools">Payment Details</div>
+					<br>
+<input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span><i class="fa fa-cc-visa"></i> Credit Card</span></label>
+                   
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Card Number" required class="name">
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Card CVC" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+<div class="input-box">
+                    <select>
+                        <option>01 jun</option>
+                        <option>02 jun</option>
+                        <option>03 jun</option>
+                    </select>
+                    <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <button type="submit">Submit Request</button>
+                </div>
+</div>
+	
+	
+	</form>
+
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+	
+	
+	
+</body>
+</html>
