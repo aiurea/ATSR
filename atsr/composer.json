@@ -1,0 +1,8 @@
+{
+    "require": {
+        "kreait/firebase-php": "^5.14",
+        "grpc/grpc": "v1.27.0",
+        "google/grpc-gcp": "^0.1.5",
+        "google/cloud-firestore": "^1.19"
+    }
+}
